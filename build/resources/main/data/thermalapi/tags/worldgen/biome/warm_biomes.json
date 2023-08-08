@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "mushroom_fields",
+    "sunflower_plains",
+    "dripstone_caves",
+    "deep_dark",
+    "plains",
+    "beach",
+    "swamp",
+    "mangrove_swamp"
+  ]
+}

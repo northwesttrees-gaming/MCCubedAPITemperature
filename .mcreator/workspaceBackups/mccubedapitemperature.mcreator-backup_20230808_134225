@@ -1,0 +1,815 @@
+{
+  "mod_elements": [
+    {
+      "name": "SetWorldFileName",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_world_file_name",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/mccubedapi/temperature/procedures/SetWorldFileNameProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Script/Config Files"
+    },
+    {
+      "name": "FeezingBiomes",
+      "type": "tag",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feezing_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mccubedapitemperature/tags/worldgen/biome/feezing_biomes.json"
+        ]
+      },
+      "path": "~/Elements/Tags/Biomes/Freezing"
+    },
+    {
+      "name": "ColdBiomes",
+      "type": "tag",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cold_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mccubedapitemperature/tags/worldgen/biome/cold_biomes.json"
+        ]
+      },
+      "path": "~/Elements/Tags/Biomes/Cold"
+    },
+    {
+      "name": "LushBiomes",
+      "type": "tag",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lush_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mccubedapitemperature/tags/worldgen/biome/lush_biomes.json"
+        ]
+      },
+      "path": "~/Elements/Tags/Biomes/Lush"
+    },
+    {
+      "name": "WarmBiomes",
+      "type": "tag",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warm_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mccubedapitemperature/tags/worldgen/biome/warm_biomes.json"
+        ]
+      },
+      "path": "~/Elements/Tags/Biomes/Warm"
+    },
+    {
+      "name": "HotBiomes",
+      "type": "tag",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mccubedapitemperature/tags/worldgen/biome/hot_biomes.json"
+        ]
+      },
+      "path": "~/Elements/Tags/Biomes/Hot"
+    },
+    {
+      "name": "WorldTimeTemperature",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "world_time_temperature",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/mccubedapi/temperature/procedures/WorldTimeTemperatureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TestTimeFactor",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_time_factor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/mccubedapi/temperature/procedures/TestTimeFactorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GenerateWorldTimeSettingsConfig",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "generate_world_time_settings_config",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/mccubedapi/temperature/procedures/GenerateWorldTimeSettingsConfigProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Script/Config Files/Generate/Settings/Time"
+    },
+    {
+      "name": "MCCTemperature",
+      "type": "command",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcc_temperature",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/mccubedapi/temperature/command/MCCTemperatureCommand.java"
+        ]
+      },
+      "path": "~/Elements/Commands"
+    },
+    {
+      "name": "MCCSave",
+      "type": "command",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcc_save",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/mccubedapi/temperature/command/MCCSaveCommand.java"
+        ]
+      },
+      "path": "~/Elements/Commands"
+    },
+    {
+      "name": "MccTemperatureMsg",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcc_temperature_msg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/mccubedapi/temperature/procedures/MccTemperatureMsgProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Elements/Commands/Procedures"
+    },
+    {
+      "name": "MccTemperatureTimeMsg",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcc_temperature_time_msg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/mccubedapi/temperature/procedures/MccTemperatureTimeMsgProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Elements/Commands/Procedures/Temperature"
+    },
+    {
+      "name": "MccTemperatureTimeGetMsg",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcc_temperature_time_get_msg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/mccubedapi/temperature/procedures/MccTemperatureTimeGetMsgProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Elements/Commands/Procedures/Temperature/Time"
+    },
+    {
+      "name": "MccTemperatureTimeSetMsg",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcc_temperature_time_set_msg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/mccubedapi/temperature/procedures/MccTemperatureTimeSetMsgProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Elements/Commands/Procedures/Temperature/Time"
+    },
+    {
+      "name": "MccTemperatureTimeGetIncrementCmd",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcc_temperature_time_get_increment_cmd",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/mccubedapi/temperature/procedures/MccTemperatureTimeGetIncrementCmdProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Elements/Commands/Procedures/Temperature/Time/Get/Increment"
+    },
+    {
+      "name": "MccTemperatureTimeSetIncrementCmd",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcc_temperature_time_set_increment_cmd",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/mccubedapi/temperature/procedures/MccTemperatureTimeSetIncrementCmdProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Elements/Commands/Procedures/Temperature/Time/Set/Increment"
+    },
+    {
+      "name": "MccTemperatureTimeGetShiftCmd",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcc_temperature_time_get_shift_cmd",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/mccubedapi/temperature/procedures/MccTemperatureTimeGetShiftCmdProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Elements/Commands/Procedures/Temperature/Time/Get/Shift"
+    },
+    {
+      "name": "MccTemperatureTimeSetShiftCmd",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcc_temperature_time_set_shift_cmd",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/mccubedapi/temperature/procedures/MccTemperatureTimeSetShiftCmdProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Elements/Commands/Procedures/Temperature/Time/Set/Set"
+    },
+    {
+      "name": "MccSaveMsg",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcc_save_msg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/mccubedapi/temperature/procedures/MccSaveMsgProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Elements/Commands/Procedures"
+    },
+    {
+      "name": "MccSaveGameMsg",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcc_save_game_msg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/mccubedapi/temperature/procedures/MccSaveGameMsgProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Elements/Commands/Procedures/Save/Game"
+    },
+    {
+      "name": "MccSaveGameTimeMsg",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcc_save_game_time_msg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/mccubedapi/temperature/procedures/MccSaveGameTimeMsgProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Elements/Commands/Procedures/Save/Game/Time"
+    },
+    {
+      "name": "MccSaveGameTimeConfig",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcc_save_game_time_config",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/mccubedapi/temperature/procedures/MccSaveGameTimeConfigProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Elements/Commands/Procedures/Save/Game/Time/Config"
+    },
+    {
+      "name": "MccSaveGameTimeNBTBlock",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcc_save_game_time_nbt_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/mccubedapi/temperature/procedures/MccSaveGameTimeNBTBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Elements/Commands/Procedures/Save/Game/Time/NBT Block"
+    },
+    {
+      "name": "MccSaveGameTimeNBTEntity",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcc_save_game_time_nbt_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/mccubedapi/temperature/procedures/MccSaveGameTimeNBTEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Elements/Commands/Procedures/Save/Game/Time/NBT Entity"
+    },
+    {
+      "name": "MccSaveTemperatureMsg",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcc_save_temperature_msg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/mccubedapi/temperature/procedures/MccSaveTemperatureMsgProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Elements/Commands/Procedures/Save/Temperature"
+    },
+    {
+      "name": "MccSaveTemperatureTimeMsg",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcc_save_temperature_time_msg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/mccubedapi/temperature/procedures/MccSaveTemperatureTimeMsgProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Elements/Commands/Procedures/Save/Temperature/Time"
+    },
+    {
+      "name": "MccSaveTemperatureTimeConfig",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcc_save_temperature_time_config",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/mccubedapi/temperature/procedures/MccSaveTemperatureTimeConfigProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Elements/Commands/Procedures/Save/Temperature/Time/Config"
+    },
+    {
+      "name": "MccSaveTemperatureTimeNBTBlock",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcc_save_temperature_time_nbt_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/mccubedapi/temperature/procedures/MccSaveTemperatureTimeNBTBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Elements/Commands/Procedures/Save/Temperature/Time/NBT Block"
+    },
+    {
+      "name": "MccSaveTemperatureTimeNBTEntity",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcc_save_temperature_time_nbt_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/nwtg/mccubedapi/temperature/procedures/MccSaveTemperatureTimeNBTEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Elements/Commands/Procedures/Save/Temperature/Time/NBT Entity"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "worldFilePath",
+      "type": "string",
+      "scope": "world",
+      "value": ""
+    },
+    {
+      "name": "worldWeatherName",
+      "type": "string",
+      "scope": "world",
+      "value": ""
+    },
+    {
+      "name": "worldWeatherTemperature",
+      "type": "number",
+      "scope": "world",
+      "value": "0.0"
+    },
+    {
+      "name": "worldTimeTemperature",
+      "type": "number",
+      "scope": "world",
+      "value": "0.0"
+    },
+    {
+      "name": "worldWindTemperature",
+      "type": "number",
+      "scope": "world",
+      "value": "0.0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Script",
+        "children": [
+          {
+            "name": "Config Files",
+            "children": [
+              {
+                "name": "Generate",
+                "children": [
+                  {
+                    "name": "Settings",
+                    "children": [
+                      {
+                        "name": "Time",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Elements",
+        "children": [
+          {
+            "name": "Tags",
+            "children": [
+              {
+                "name": "Biomes",
+                "children": [
+                  {
+                    "name": "Freezing",
+                    "children": []
+                  },
+                  {
+                    "name": "Cold",
+                    "children": []
+                  },
+                  {
+                    "name": "Lush",
+                    "children": []
+                  },
+                  {
+                    "name": "Warm",
+                    "children": []
+                  },
+                  {
+                    "name": "Hot",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Commands",
+            "children": [
+              {
+                "name": "Procedures",
+                "children": [
+                  {
+                    "name": "Temperature",
+                    "children": [
+                      {
+                        "name": "Time",
+                        "children": [
+                          {
+                            "name": "Get",
+                            "children": [
+                              {
+                                "name": "Increment",
+                                "children": []
+                              },
+                              {
+                                "name": "Shift",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "name": "Set",
+                            "children": [
+                              {
+                                "name": "Increment",
+                                "children": []
+                              },
+                              {
+                                "name": "Set",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Save",
+                    "children": [
+                      {
+                        "name": "Game",
+                        "children": [
+                          {
+                            "name": "Time",
+                            "children": [
+                              {
+                                "name": "Config",
+                                "children": []
+                              },
+                              {
+                                "name": "NBT Block",
+                                "children": []
+                              },
+                              {
+                                "name": "NBT Entity",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "Temperature",
+                        "children": [
+                          {
+                            "name": "Time",
+                            "children": [
+                              {
+                                "name": "Config",
+                                "children": []
+                              },
+                              {
+                                "name": "NBT Block",
+                                "children": []
+                              },
+                              {
+                                "name": "NBT Entity",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "mccubedapitemperature",
+    "modName": "MCCubedAPI",
+    "version": "1.0.0",
+    "description": "Adds a way for mods to sync weather and temperature settings easily.",
+    "author": "NorthWestTrees",
+    "websiteURL": "https://mcreator.net",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.4",
+    "credits": "Minecraft, Forge, MCreator",
+    "modElementsPackage": "net.nwtg.mccubedapi.temperature",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

@@ -7,7 +7,7 @@ You can find all the information about the mod right here on this Repository und
 
 ## 📝 Changelogs
 You can find a list of changes here on this page.
-- [ThermalAPI](https://github.com/northwesttrees-gaming/ThermalAPI/wiki/Changes)
+- [ThermalAPI: Changes](https://github.com/northwesttrees-gaming/ThermalAPI/wiki/Changes)
 
 ## 🧪 Project Plans
 All the official plans can be found on the projects page here.

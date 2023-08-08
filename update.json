@@ -1,0 +1,10 @@
+{
+  "homepage": "https://github.com/northwesttrees-gaming/ThermalAPI",
+  "1.19.2": {
+    "1.0.0": "Internal release"
+  },
+  "promos": {
+    "1.19.2-latest": "1.0.0",
+    "1.19.2-recommended": "1.0.0"
+  }
+}

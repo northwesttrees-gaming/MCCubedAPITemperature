@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "frozen_ocean",
+    "frozen_river",
+    "snowy_plains",
+    "ice_spikes",
+    "deep_frozen_ocean",
+    "snowy_beach"
+  ]
+}

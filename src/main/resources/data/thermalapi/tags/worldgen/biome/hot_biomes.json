@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "warped_forest",
+    "savanna_plateau",
+    "basalt_deltas",
+    "sparse_jungle",
+    "crimson_forest",
+    "eroded_badlands",
+    "nether_wastes",
+    "badlands",
+    "bamboo_jungle",
+    "soul_sand_valley",
+    "stony_peaks",
+    "savanna",
+    "windswept_savanna",
+    "wooded_badlands",
+    "jungle",
+    "desert"
+  ]
+}

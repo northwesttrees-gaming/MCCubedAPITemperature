@@ -1,0 +1,33 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Biomes",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [
+      {
+        "value": "deep_frozen_ocean"
+      },
+      {
+        "value": "frozen_river"
+      },
+      {
+        "value": "frozen_ocean"
+      },
+      {
+        "value": "snowy_tundra"
+      },
+      {
+        "value": "mutated_ice_flats"
+      },
+      {
+        "value": "cold_beach"
+      }
+    ],
+    "name": "cold_biomes",
+    "namespace": "mod"
+  }
+}

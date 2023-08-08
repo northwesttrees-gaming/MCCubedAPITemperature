@@ -1,0 +1,30 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Biomes",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [
+      {
+        "value": "frozen_peaks"
+      },
+      {
+        "value": "jagged_peaks"
+      },
+      {
+        "value": "taiga_cold"
+      },
+      {
+        "value": "snowy_slopes"
+      },
+      {
+        "value": "grove"
+      }
+    ],
+    "name": "feezing_biomes",
+    "namespace": "mod"
+  }
+}

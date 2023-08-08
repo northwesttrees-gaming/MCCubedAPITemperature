@@ -1,0 +1,45 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Biomes",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [
+      {
+        "value": "plains"
+      },
+      {
+        "value": "mutated_plains"
+      },
+      {
+        "value": "beaches"
+      },
+      {
+        "value": "deep_dark"
+      },
+      {
+        "value": "dripstone_caves"
+      },
+      {
+        "value": "swamp"
+      },
+      {
+        "value": "mutated_swampland"
+      },
+      {
+        "value": "mangrove_swamp"
+      },
+      {
+        "value": "mushroom_field_shore"
+      },
+      {
+        "value": "mushroom_fields"
+      }
+    ],
+    "name": "warm_biomes",
+    "namespace": "mod"
+  }
+}
